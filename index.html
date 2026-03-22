@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mae Le Bon Art's - Restauration de Tableaux</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            color: #2c2c2c;
+            background: #f8f6f2;
+        }
+
+        header {
+            background: #1e1e1e;
+            color: #fff;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 36px;
+            margin: 0;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #cfcfcf;
+        }
+
+        nav {
+            background: #111;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .hero {
+            background: url('https://images.unsplash.com/photo-1579783901586-d88db74b4fe4') center/cover;
+            color: white;
+            text-align: center;
+            padding: 140px 20px;
+        }
+
+        .hero h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 60px 20px;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+
+        .portfolio {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .portfolio img {
+            width: 100%;
+            border-radius: 6px;
+        }
+
+        footer {
+            background: #1e1e1e;
+            color: #aaa;
+            text-align: center;
+            padding: 30px;
+            font-size: 14px;
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        form button {
+            background: #1e1e1e;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Mae Le Bon Art's</h1>
+    <p>Restauration spécialisée de tableaux anciens et contemporains</p>
+</header>
+
+<nav>
+    <a href="#about">À propos</a>
+    <a href="#services">Expertise</a>
+    <a href="#portfolio">Réalisations</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+    <h2>Redonner vie aux œuvres picturales</h2>
+    <p>Interventions précises et respectueuses des techniques d'origine</p>
+</section>
+
+<section id="about">
+    <h2>L’atelier</h2>
+    <p>Mae Le Bon Art's est un atelier dédié à la restauration de tableaux. Chaque intervention vise à préserver l'intégrité de l'œuvre tout en assurant sa lisibilité esthétique. Les traitements sont réalisés dans le respect des matériaux et des techniques d’origine.</p>
+</section>
+
+<section id="services">
+    <h2>Expertise</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Nettoyage de surface</h3>
+            <p>Élimination des vernis altérés, encrassements et dépôts.</p>
+        </div>
+        <div class="card">
+            <h3>Restauration picturale</h3>
+            <p>Retouches, comblement des lacunes et harmonisation des couleurs.</p>
+        </div>
+        <div class="card">
+            <h3>Consolidation</h3>
+            <p>Stabilisation des supports, traitement des craquelures et déformations.</p>
+        </div>
+    </div>
+</section>
+
+<section id="portfolio">
+    <h2>Réalisations</h2>
+    <div class="portfolio">
+        <img src="images/restauration1.jpg" alt="tableau restauré">
+        <img src="images/restauration2.jpg" alt="avant restauration">
+        <img src="images/restauration3.jpg" alt="avant après détail">
+        <img src="images/restauration4.jpg" alt="avant après bas tableau">
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <form>
+        <input type="text" placeholder="Nom" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Votre demande" rows="5" required></textarea>
+        <button type="submit">Envoyer</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2026 Mae Le Bon Art's - Tous droits réservés</p>
+</footer>
+
+</body>
+</html>
